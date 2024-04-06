@@ -32,3 +32,9 @@ Initial considerations for review.
   * Apps ([FlutterFlow](https://flutterflow.io/))
   * Systems for practitioner and pharmacy ([BuildShip](https://buildship.com/), tbc)
 * Wallet - [esatus](https://esatus.com/en/digital-identity/), [Lissy](https://www.lissi.id/for-users), ...; preferably with APIs for credential manipulation from app
+
+# Envisaged Showcase Events
+
+* [DICE 2024](https://diceurope.org), June 2024
+* [Digital Days Aarau](https://www.digitaldaysaarau.ch), October/November 2024
+* ...
