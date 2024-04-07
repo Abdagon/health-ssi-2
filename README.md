@@ -28,7 +28,7 @@ Initial considerations for review.
   * based on JSON-LD schemas (directly taken from [openEHR](https://specifications.openehr.org/releases/ITS-JSON/latest) and [FHIR](https://www.hl7.org/fhir/fhir.schema.json))
   * BBS+ signatures ([Verifiable Credentials Playground](https://vcplayground.org), tbc)
 * REST APIs to manage verifiable credentials
-* No code environments
+* No code environments (see short example [video](https://youtu.be/2OzgeHxpMs4))
   * Apps ([FlutterFlow](https://flutterflow.io/))
   * Systems for practitioner and pharmacy ([BuildShip](https://buildship.com/), tbc)
 * Wallet - [esatus](https://esatus.com/en/digital-identity/), [Lissy](https://www.lissi.id/for-users), ...; preferably with APIs for credential manipulation from app
