@@ -16,7 +16,7 @@ See [Health SSI](https://github.com/janesp/health-ssi).
 
 ## Architecture
 
-While the hackathon showcase made a few simplifications for timely implementation, the next proof of concept shall have a state of the art architecture:
+While the hackathon showcase made simplifications for timely implementation, the next proof of concept shall have a state of the art architecture:
 
 * Modular business logic components with APIs to issue and verify verifiable credentials
 * Simulations of practitioner and pharmacy systems with appropriate user interfaces
