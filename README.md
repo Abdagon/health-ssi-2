@@ -1,3 +1,5 @@
+![Health SSI Banner](https://github.com/user/banner.png)
+
 # Health SSI Generation 2
 
 Welcome to the Health SSI repository!
