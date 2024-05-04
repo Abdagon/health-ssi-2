@@ -27,9 +27,9 @@ While the hackathon showcase made a few simplifications for timely implementatio
 Initial considerations for review.
 
 * Verifiable credentials
-  * based on JSON-LD schemas (directly taken from [openEHR](https://specifications.openehr.org/releases/ITS-JSON/latest) and [FHIR](https://www.hl7.org/fhir/fhir.schema.json))
+  * Payload based on JSON-LD schemas (directly taken from [openEHR](https://specifications.openehr.org/releases/ITS-JSON/latest) and [FHIR](https://www.hl7.org/fhir/fhir.schema.json))
   * BBS+ signatures ([Verifiable Credentials Playground](https://vcplayground.org), tbc)
-* REST APIs to manage verifiable credentials
+* REST APIs to manage verifiable credentials ([walt.id](https://walt.id/))
 * No code environments (see short example [video](https://youtu.be/2OzgeHxpMs4))
   * Apps ([FlutterFlow](https://flutterflow.io/))
   * Systems for practitioner and pharmacy ([BuildShip](https://buildship.com/), tbc)
