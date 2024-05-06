@@ -1,4 +1,4 @@
-![Health SSI Banner](banner.png)
+![Health SSI Banner](images/banner.png)
 
 # Health SSI Generation 2
 
@@ -21,6 +21,8 @@ While the hackathon showcase made simplifications for timely implementation, the
 * Modular business logic components with APIs to issue and verify verifiable credentials
 * Simulations of practitioner and pharmacy systems with appropriate user interfaces
 * Wallet for citizen to hold verifiable credetials
+
+![Health SSI Components](images/components.png)
 
 ## Technology
 
