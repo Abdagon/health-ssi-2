@@ -28,11 +28,14 @@ Initial considerations for review.
 
 * Verifiable credentials
   * Payload based on JSON-LD schemas (directly taken from [openEHR](https://specifications.openehr.org/releases/ITS-JSON/latest) and [FHIR](https://www.hl7.org/fhir/fhir.schema.json))
-  * BBS+ signatures ([Verifiable Credentials Playground](https://vcplayground.org), tbc)
+  * SD-JWT signatures
+  * Option for BBS+ signatures at a later stage ([Verifiable Credentials Playground](https://vcplayground.org), tbc)
 * REST APIs to manage verifiable credentials ([walt.id](https://walt.id/))
-* No code environments (see short example [video](https://youtu.be/2OzgeHxpMs4))
+* Option for prototyping - no code environments (see short example [video](https://youtu.be/2OzgeHxpMs4))
   * Apps ([FlutterFlow](https://flutterflow.io/))
   * Systems for practitioner and pharmacy ([BuildShip](https://buildship.com/), tbc)
+* Front end (app, desktop) and business logic based on multiplatform environment
+  * [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html)
 * Wallet - [esatus](https://esatus.com/en/digital-identity/), [Lissy](https://www.lissi.id/for-users), ...; preferably with APIs for credential manipulation from app
 
 # Envisaged Showcase Events
