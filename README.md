@@ -8,7 +8,7 @@ We are aiming to showcase healthcare use cases based on Self Sovereign Identity 
 
 This repository builds on the original idea of [Health SSI](https://github.com/janesp/health-ssi) and the subsequent award-winning [challenge](https://hack.opendata.ch/project/1103) at the [GovTech Hackathon 2024](https://www.bk.admin.ch/bk/en/home/digitale-transformation-ikt-lenkung/bundesarchitektur/api-architektur-bund/govtech-hackathon24.html). Check out the short «making of» [video](https://youtu.be/uNrMFE2wOyQ) with the live demonstration at the final pitch.
 
-A [health app](https://youtu.be/T5bYmy_oXMo) proof of concept was built in 2022 with a FHIR server backend. The Health SSI showcase app shall be implemented with a wallet as data store.
+A health app proof of concept was built in 2022 with a FHIR server backend ([short video](https://youtu.be/T5bYmy_oXMo)). The Health SSI showcase app shall be implemented with a wallet as data store.
 
 # Use Cases
 
