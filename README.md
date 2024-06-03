@@ -39,19 +39,24 @@ While the hackathon showcase made simplifications for timely implementation, the
 
 ## Technology
 
-Initial considerations for review.
+Currently used for first PoC implementation and planned for next steps.
 
 * Verifiable credentials
+  * Simplified JSON payload objects for first feasability validations
   * Payload based on JSON-LD schemas (directly taken from [openEHR](https://specifications.openehr.org/releases/ITS-JSON/latest) and [FHIR](https://www.hl7.org/fhir/fhir.schema.json))
   * SD-JWT signatures
   * Option for BBS+ signatures at a later stage ([Verifiable Credentials Playground](https://vcplayground.org), tbc)
 * Verifiable Credential framework with REST and library APIs to manage generic verifiable credentials ([walt.id](https://walt.id/))
-* Option for prototyping - no code environments (see short example [video](https://youtu.be/2OzgeHxpMs4))
-  * Apps ([FlutterFlow](https://flutterflow.io/))
-  * Systems for practitioner and pharmacy ([BuildShip](https://buildship.com/), tbc)
 * Front end (app, desktop) and business logic based on multiplatform environment
   * [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html)
-* Wallet - [esatus](https://esatus.com/en/digital-identity/), [Lissy](https://www.lissi.id/for-users), ...; preferably with APIs for credential manipulation from app
+* Wallet - [esatus](https://esatus.com/en/digital-identity/), [Lissy](https://www.lissi.id/for-users), ... (during next stage); preferably with APIs for credential manipulation from app
+
+Note - the original idea of no code environments was dropped ([FlutterFlow](https://flutterflow.io/), [BuildShip](https://buildship.com/)).
+
+# Contributors
+
+* [Peter Janes](https://www.linkedin.com/in/peterjanes/) - [DIDAS](https://www.didas.swiss) Health working group lead, GovTech Hackathon challenge owner
+* [Oliver Deak](https://www.linkedin.com/in/oliver-deak/) - technology and development specialist
 
 # Envisaged Showcase Events
 
