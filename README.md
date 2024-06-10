@@ -51,6 +51,8 @@ Currently used for first PoC implementation and planned for next steps.
   * [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html)
 * Wallet - [esatus](https://esatus.com/en/digital-identity/), [Lissy](https://www.lissi.id/for-users), ... (during next stage); preferably with APIs for credential manipulation from app
 
+In case you are interested in the code, check out our [development repository](https://github.com/deak-ai/healthwallet).
+
 Note - the original idea of no code environments was dropped ([FlutterFlow](https://flutterflow.io/), [BuildShip](https://buildship.com/)).
 
 # Contributors
