@@ -65,4 +65,5 @@ Note - the original idea of no code environments was dropped ([FlutterFlow](http
 * [DICE 2024](https://diceurope.org), June 2024 - check out our [short video](https://youtu.be/CaEMHeJBKr8) and [DICE 2024 Documents](https://drive.google.com/drive/u/1/folders/1z1Ban7MKxz-yanZQrFsAx7H5zHR_Iiag) (DIDAS Health et al)
 * [Forum Gesundheitsdatenraum Schweiz](https://gesundheitsdatenraum.ch/uploads/Dokumente/20240411_v2_GdS_Flyer.pdf), June 26, 2024
 * [Digital Days Aarau](https://www.digitaldaysaarau.ch), October/November 2024
+* vfsm Innovation Event, November 7, 2024
 * ...
