@@ -2,13 +2,17 @@
 
 # Health SSI Generation 2
 
-Welcome to the Health SSI repository!
+Welcome to our Health SSI repository!
+
+# Motivation
 
 We are aiming to showcase healthcare use cases based on Self Sovereign Identity (SSI) principles.
 
 This repository builds on the original idea of [Health SSI](https://github.com/janesp/health-ssi) and the subsequent award-winning [challenge](https://hack.opendata.ch/project/1103) at the [GovTech Hackathon 2024](https://www.bk.admin.ch/bk/en/home/digitale-transformation-ikt-lenkung/bundesarchitektur/api-architektur-bund/govtech-hackathon24.html). Check out the short «making of» [video](https://youtu.be/uNrMFE2wOyQ) with the live demonstration at the final pitch.
 
 A health app proof of concept was built in 2022 with a FHIR server backend ([short video](https://youtu.be/T5bYmy_oXMo)). The Health SSI showcase app shall be implemented with a wallet as data store.
+
+It is our intention to implement a health app with health data verifiable credentials based on the Swiss federal govermnent [public beta](https://www.eid.admin.ch/en/public-beta-e) trust infrastructure.
 
 # Use Cases
 
@@ -29,12 +33,12 @@ While the hackathon showcase made simplifications for timely implementation, the
 
 * Modular components with APIs to issue and verify healthcare specific verifiable credentials
 * Simulations of practitioner and pharmacy «business systems» with appropriate user interfaces
-* Wallet for citizen to hold verifiable credetials
+* Wallet for citizen to hold verifiable credetials with health data
 
 ![Health SSI Components](images/components.png)
 
 * All participating (healthcare) «business platforms» are based on common health data object definitions, based on openEHR and FHIR standards (technically based on json schemas)
-* A verifiable credential framework provides generic VC operations such as wallet functionality, as well as VC issuing and verification ([walt.id](https://walt.id/) for the upcoming PoC)
+* A verifiable credential framework provides generic VC operations such as wallet functionality, as well as VC issuing and verification ([walt.id](https://walt.id/) for the PoC)
 * Healthcare specific VC operations are provided by a «business logic» on top of the generic VC framework (through library and REST API interfaces based on [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html))
 
 ## Technology
@@ -47,22 +51,26 @@ Currently used for first PoC implementation and planned for next steps.
   * SD-JWT signatures
   * Option for BBS+ signatures at a later stage ([Verifiable Credentials Playground](https://vcplayground.org), tbc)
 * Verifiable Credential framework with REST and library APIs to manage generic verifiable credentials ([walt.id](https://walt.id/))
-* Front end (app, desktop) and business logic based on multiplatform environment
-  * [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html)
+* Front end (app, desktop) and business logic based on multiplatform environment [Rect Native](https://reactnative.dev)
 * Wallet - [esatus](https://esatus.com/en/digital-identity/), [Lissy](https://www.lissi.id/for-users), ... (during next stage); preferably with APIs for credential manipulation from app
 
 In case you are interested in the code, check out our [development repository](https://github.com/deak-ai/healthwallet).
-
-Note - the original idea of no code environments was dropped ([FlutterFlow](https://flutterflow.io/), [BuildShip](https://buildship.com/)).
 
 # Contributors
 
 * [Peter Janes](https://www.linkedin.com/in/peterjanes/) - [DIDAS](https://www.didas.swiss) Health working group lead, GovTech Hackathon challenge owner
 * [Oliver Deak](https://www.linkedin.com/in/oliver-deak/) - technology and development specialist
 
-# Envisaged Showcase Events
+# Past and Envisaged Showcase Events
 
-* [DICE 2024](https://diceurope.org), June 2024 - check out our [short video](https://youtu.be/CaEMHeJBKr8), [DICE 2024 Documents](https://drive.google.com/drive/u/1/folders/1z1Ban7MKxz-yanZQrFsAx7H5zHR_Iiag) (DIDAS Health et al) and [DICE 2024 Health session notes](https://docs.google.com/document/d/18KrZ8nvOPWkPkAjAt0Bdu8vWuTFvgFP0donpNUwLPX4/edit)
-* [Digital Days Aarau](https://www.digitaldaysaarau.ch), October/November 2024
-* [vfsm Innovation Event](https://www.vsfm.info/innovations-anlass), November 7, 2024
+* DICE 2024, June 2024 - check out our [short video](https://youtu.be/CaEMHeJBKr8), [DICE 2024 Documents](https://drive.google.com/drive/u/1/folders/1z1Ban7MKxz-yanZQrFsAx7H5zHR_Iiag) (DIDAS Health et al) and [DICE 2024 Health session notes](https://docs.google.com/document/d/18KrZ8nvOPWkPkAjAt0Bdu8vWuTFvgFP0donpNUwLPX4/edit)
+* [DICE 2025](https://diceurope.org), March and September 2025
 * ...
+
+# Learnings Log
+
+In the course of our prototyping journey, a number of pivots were made to accomodate for learnings resulting from the process:
+
+* No code platforms [FlutterFlow](https://flutterflow.io/) and [BuildShip](https://buildship.com/) dropped in favor of [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) for more flexibility regarding functionality as well as VC library and REST API usage
+* [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html) dropped for App development in favor of [Rect Native](https://reactnative.dev) due to considerably higher maturity of development environment
+* Architecture changed from verifiable credentials as «source of truth» to referenced information to accomodate for other sources of health data (e.g. local Apple [HealthKit](https://developer.apple.com/documentation/healthkit) / Android [Health Connect](https://developer.android.com/health-and-fitness/guides/health-connect), remote EHR)
