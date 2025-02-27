@@ -54,11 +54,9 @@ Currently used for first PoC implementation and planned for next steps.
 * Front end (app, desktop) and business logic based on multiplatform environment [Rect Native](https://reactnative.dev)
 * Wallet - [esatus](https://esatus.com/en/digital-identity/), [Lissy](https://www.lissi.id/for-users), ... (during next stage); preferably with APIs for credential manipulation from app
 
-In case you are interested in the code, check out our [development repository](https://github.com/deak-ai/healthwallet).
-
 ## Open Source
 
-The prototype is about to be published open source. Check out the GitHub «[HealthWallet](https://github.com/deak-ai/healthwallet-ips)» repository. Stay tuned for more to come.
+The prototype is about to be published open source. In case you are interested in the code, check out our [development repository](https://github.com/deak-ai/healthwallet-ips). Stay tuned for more to come - visit us from time to time.
 
 # Contributors
 
