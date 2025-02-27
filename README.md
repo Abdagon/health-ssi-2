@@ -58,7 +58,7 @@ In case you are interested in the code, check out our [development repository](h
 
 ## Open Source
 
-The prototype is about to be published open source. Check out the GitHub «[HealthWallet](https://github.com/deak-ai/healthwallet-ips)» repoisitory. Stay tuned for more to come.
+The prototype is about to be published open source. Check out the GitHub «[HealthWallet](https://github.com/deak-ai/healthwallet-ips)» repository. Stay tuned for more to come.
 
 # Contributors
 
