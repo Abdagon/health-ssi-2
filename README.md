@@ -56,6 +56,10 @@ Currently used for first PoC implementation and planned for next steps.
 
 In case you are interested in the code, check out our [development repository](https://github.com/deak-ai/healthwallet).
 
+# Open Source
+
+The prototype is about to be published open source. Check out the GitHub «[HealthWallet](https://github.com/deak-ai/healthwallet-ips)» repoisitory. Stay tuned for more to come.
+
 # Contributors
 
 * [Peter Janes](https://www.linkedin.com/in/peterjanes/) - [DIDAS](https://www.didas.swiss) Health working group lead, GovTech Hackathon challenge owner
@@ -64,7 +68,7 @@ In case you are interested in the code, check out our [development repository](h
 # Past and Envisaged Showcase Events
 
 * DICE 2024, June 2024 - check out our [short video](https://youtu.be/CaEMHeJBKr8), [DICE 2024 Documents](https://drive.google.com/drive/u/1/folders/1z1Ban7MKxz-yanZQrFsAx7H5zHR_Iiag) (DIDAS Health et al) and [DICE 2024 Health session notes](https://docs.google.com/document/d/18KrZ8nvOPWkPkAjAt0Bdu8vWuTFvgFP0donpNUwLPX4/edit)
-* DIDAS Health Webinar, 14.02.2025, check out our [teaser video](https://youtu.be/D69uVIVHmsw) and the [full webinar recording](https://youtu.be/hOM_EMtdAl8) for a live demonstration of the current prototype
+* DIDAS Health Webinar, 14.02.2025, check out our [teaser video](https://youtu.be/D69uVIVHmsw) and the [full webinar recording](https://youtu.be/hOM_EMtdAl8) for a live demonstration of the current prototype - testimonial of [Adam Eunson](https://www.linkedin.com/in/adameunson/) «I have to say, having been in the space for 5+ years this is one of the best use case and user experience demonstrations of the technology I have ever seen! Amazing job to everyone involved!»
 * [DICE 2025](https://diceurope.org), March and September 2025
 * ...
 
